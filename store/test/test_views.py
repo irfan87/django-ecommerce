@@ -9,6 +9,12 @@ from store.models import Category, Product
 from store.views import all_products
 
 
+@skip("run skip test")
+class TestSkip(TestCase):
+    def test_skip_test(self):
+        pass
+
+
 class TestViewResponses(TestCase):
     def setUp(self):
         self.client = Client()

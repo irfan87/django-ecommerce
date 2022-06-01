@@ -27,3 +27,4 @@ This is a simple e-commerce application that developed using Django, Python web 
 3. Run `py manage.py migrate` 
 4. Run `py manage.py runserver` after migrate
 5. All codes was test to check it's functionality and business needs. Feel free to check the availability of code coverage by running `coverage run manage.py test`
+6. To check if the code followed the conventions (PEP8), simply run `flake8`
